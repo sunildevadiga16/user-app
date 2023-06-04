@@ -6,7 +6,7 @@ import IUSerData from './types/userData';
 import UserDetails from './components/UserDetails';
 
 const App: React.FC = () => {
-  const url: string = "https://randomuser.me/aapi";
+  const url: string = "https://randomuser.me/api";
   const [userData, setUserData] = useState<Array<IUSerData>>([]);
   const [refresh, setRefresh] = useState<boolean>(false);
   const [apiError, setApiError] = useState<boolean>(false);
